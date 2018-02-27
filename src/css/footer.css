@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+    .footer-flex-div > div {
+        height: 250px;
+        width: 50%;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    .footer-flex-div > div {
+        height: 250px;
+        width: 25%;
+      }
+}
+
+.footer-flex-div
+{
+  margin: auto;
+  right: 0;
+  left: 0;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-flex-div > div {
+    text-align: center;
+    font-family: "Courier"
+  }
+
+  .footer-link{
+    width: 100%;
+    color: #aaa;
+    font-size: 80%;
+    text-decoration: none
+  }
